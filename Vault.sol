@@ -53,6 +53,7 @@ contract Vault {
 
         s = aT / B
         */
+
         uint shares;
         if (totalSupply == 0) {
             shares = _amount;
